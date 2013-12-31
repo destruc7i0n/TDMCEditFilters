@@ -2,10 +2,11 @@
 # http://youtube.com/CrushedPixel
 # http://youtube.com/TheDestruc7i0n
  
-displayName = "THED Wool to Stained Glass/Clay"
+displayName = "DWool to Stained Glass/Clay"
  
 inputs = (
         ("Replace Wool with: ", ("Stained Glass", "Stained Clay")),
+        ("Made By CrushedPixel, Edited By destruc7i0n and jgierer12", "label"), 
 )
  
 def perform(level, box, options):
