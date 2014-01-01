@@ -12,6 +12,8 @@ inputs = (
         ("Created by WumpaCraft, Edited A Bit By destruc7i0n & jgierer12", "label"),
         ("Works on wool, glass, clay, wood, bricks, planks, and leaves", "label"),
 	("Diversify: ", ("Wool","Stained Glass","Stained Glass Panes", "Stained Clay", "Carpet", "Wood Blocks", "Stone Bricks", "Wood Planks", "Leaves")), 
+        ("Diversify Amount", ("(1-5 Randomness) A Little Random", "(1-10 Randomness) Normal Randomness", "(1-15 Randomness) VERY Random"),
+        ("The Numbers Of Randomness Is The Options Of Random Data Values", "label"),
 )
 
 def perform(level, box, options):
