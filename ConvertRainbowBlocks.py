@@ -20,6 +20,10 @@ def perform(level, box, options):
 	for x in xrange(box.minx, box.maxx):
 			for z in xrange(box.minz, box.maxz):
 					for y in xrange(box.miny, box.maxy):
+						
+						if level.blockAt != f:
+							raise Expeption 
+						
 						if f == "Wool" and level.blockAt(x, y, z) == 35:
 							if c == "Clay":
 								level.setBlockAt(x, y, z, 159)
