@@ -1,4 +1,4 @@
-displayName = "Convert Coloured Blocks"
+displayName = "Convert Rainbow Blocks"
 	
 Blocks = {
 	"Wool": 0,
