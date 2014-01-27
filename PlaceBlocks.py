@@ -5,7 +5,7 @@ displayName = "DPlace Blocks"
  
 inputs = (
         ("Place Block?", True),
-		("With What?", "blocktype"),
+	("With What?", "blocktype"),
 )
  
 def perform(level, box, options):
@@ -16,7 +16,7 @@ def perform(level, box, options):
                 for y in xrange(box.miny, box.maxy):
                         for z in xrange(box.minz, box.maxz):
 
-								if pb == True:
-									level.setBlockAt(x, y, z, ww)    
+				if pb == True:
+					level.setBlockAt(x, y, z, ww)    
  
         level.markDirtyBox(box)
