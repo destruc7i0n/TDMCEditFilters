@@ -1,5 +1,5 @@
 # MCEdit filter created by TheDestruc7i0n
-# http://youtube.com/TheDestru7i0n
+# http://youtube.com/TheDestruc7i0n
 
 from pymclevel import TAG_List
 from pymclevel import TAG_Byte
